@@ -1,0 +1,338 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Achica los margenes de Top y Bottom */
+  margin: 1%;
+  
+}
+.supremo{
+    height: auto;
+}
+.opcion {
+  width: 55%;
+  justify-content: center; /*  Hozontal */
+  align-items: center; /* Vectical */
+  margin: 0px 3%;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 2%;
+}
+.texto{
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+}
+.logo-texto {
+  display: flex;
+  flex-direction: row;
+  
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  /* justify-content: space-evenly */
+}
+.menu li {
+  margin: 0px 6%;
+}
+.menu a {
+  font-size: 18px;
+  color: #564526;
+  text-decoration: none;
+}
+
+.logo-texto {
+  width: 45%;
+}
+/* Aqui termina el Header */
+.bodi {
+  display: flex;
+  flex-direction: row;
+  background: #fff5e3;
+  border-top: 2px solid black;
+}
+.bodi img {
+  width: 60%;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+.global {
+  display: flex;
+  width: 40%;
+  margin-top: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  justify-content: center;
+  align-items: center;
+}
+.global h2 {
+  text-align: center;
+  font-size: 100px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.global p {
+  font-size: 45px;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.boton {
+  display: flex;
+  justify-content: center;
+}
+.global a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: "Raleway", sans-serif;
+  justify-content: center;
+  padding: 4%;
+  border-radius: 8px;
+  margin-top: 3%;
+  background: #fd8468;
+  color: white;
+}
+/*Aqui termina el primer Section*/
+.body-cuadrado {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.cuadrados {
+    width: 100%;
+    margin: 0px 20px;
+  flex-direction: row;
+  justify-content: center;
+
+}
+  
+.cuadrados div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.cuadrados div div {
+  width: 35%;
+  height: 350px;
+  background: #EAE8DD;
+  border-radius: 16px;
+}
+.cuadrados-A div {
+    margin: 40px 20px 20px 20px ;
+    display: flex;
+    flex-direction: column;
+  width: 40%;
+  margin-top: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  justify-content: center;
+  align-items: center;
+  
+}
+.cuadrados-B div {
+    margin: 20px 20px 40px 20px; /*top,rigth,botton,left */
+    display: flex;
+    flex-direction: column;
+  width: 40%;
+  margin-top: 3%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+  justify-content: center;
+  align-items: center;
+}
+.sub h2 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+  }
+  .sub p {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin: 0px 20px;
+    margin-top: 3%;
+  }
+  .boton-sub{
+    display: flex;
+    justify-content: center;
+  }
+  .sub a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Raleway", sans-serif;
+    justify-content: center;
+    padding: 4%;
+    border-radius: 8px;
+    margin-top: 3%;
+    background: #fd8468;
+    color: white;
+  }
+
+  /*Tercer seccion*/
+
+  .bodi-2{
+    display: flex;
+    flex-direction: row;
+    background: #fff5e3;
+    border-top: 2px solid black;
+    position: relative;
+    z-index: -2;
+    width: 100%;
+  }
+.global-2 {
+    display: flex;
+    width: 40%;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+  }
+  .arriba{
+      display: inline-block;
+      position: absolute;
+      z-index: -2;
+      width: 100%;
+  }
+  .chica{
+    width: 60%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+  }
+  .global-2 {
+    display: flex;
+    width: 40%;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+  }
+  .global-2 h2 {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+  }
+  .global-2 p {
+    font-size: 45px;
+    font-weight: 300;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+  }
+  .boton {
+    display: flex;
+    justify-content: center;
+  }
+  .global-2 a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Raleway", sans-serif;
+    justify-content: center;
+    padding: 4%;
+    border-radius: 8px;
+    margin-top: 3%;
+    background: #fd8468;
+    color: white;
+  }
+  /*Contact*/
+  .formulario{
+      border-top: 2px solid black;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background:  #fff5e3;
+  }
+  .formulario h2{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+   margin-top: 5%;
+  }
+  .myform{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Vectical */
+    height: 100%;
+  }
+  .myform div {
+    width: 100%;
+  }
+  .myform div input{
+    font-family: "Raleway", sans-serif;
+    padding: 10px 50px;
+    font-size: 20px;
+  }
+  .Nombre{
+      display: inline-block;
+    margin: 20px 30px 1% 0px;
+  }
+  .Mensaje{
+    font-family: "Raleway", sans-serif;
+    padding: 50px 17%;
+    font-size: 20px;
+  }
+  .myform button{
+      margin: 1%;
+     justify-content: right;
+      padding: 1% 5%;
+  }
+  /* Renponsive */
+  @media screen and (max-width: 1136px){
+    .chica{
+        visibility: hidden;
+        position: absolute;
+      }
+      .global-2{
+          width: 100%;
+          height:500px ;
+      }
+      .bodi {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .global{
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+      }
+      .bodi img {
+        width: 60%;
+        margin-right: 3%;
+      }
+      body{
+        width: 100%;
+      }
+     /* .sub:nth-of-type(1){
+         width: 100%;
+         height: 100px;
+    } */
+   
+  }
